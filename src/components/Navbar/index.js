@@ -6,7 +6,7 @@ function Navbar() {
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo>ECO</NavLogo>
+          <NavLogo href>ECO</NavLogo>
         </NavbarContainer>
       </Nav>
     </>
