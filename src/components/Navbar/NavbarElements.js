@@ -5,7 +5,7 @@ import { Link as LinkR } from "react-router-dom";
 export const Nav = styled.nav`
   background: black;
   height: 100px;
-  margin-top: -100px;
+  /* margin-top: -100px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,7 +28,7 @@ export const NavbarContainer = styled.div`
   max-width: 1100px;
 `;
 export const NavLogo = styled(LinkR)`
-  color: black;
+  color: yellow;
   justify-self: flex-start;
   cursor: pointer;
   font-size: 1.5rem;
