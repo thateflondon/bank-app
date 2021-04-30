@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const InfoContainer = styled.div`
   color: #fff;
   background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#010606")};
-
   @media screen and (max-width: 768px) {
     padding: 100px 0;
   }
@@ -40,7 +39,7 @@ export const FirstColumn = styled.div`
 export const SecondColumn = styled.div`
   margin-bottom: 15px;
   padding: O 15px;
-  grid-area: col1;
+  grid-area: col2;
 `;
 
 export const TextWrapper = styled.div`
@@ -58,7 +57,7 @@ export const TopLine = styled.p`
   margin-bottom: 16px;
 `;
 export const Heading = styled.h1`
-  color: #fff;
+  /* color: #fff; */
   margin-bottom: 24px;
   font-size: 48px;
   line-height: 1.1;
@@ -83,6 +82,7 @@ export const BtnWrap = styled.div`
 export const ImgWrap = styled.div`
   max-width: 555px;
   height: 100%;
+  /* margin-right:50px; */
 `;
 
 export const Img = styled.img`
@@ -91,4 +91,4 @@ export const Img = styled.img`
   padding-right: 0;
 `;
 
-export const Button = styled.div``;
+/* export const Button = styled.div``; */

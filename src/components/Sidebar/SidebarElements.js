@@ -38,6 +38,7 @@ export const SidebarWrapper = styled.div`
 `;
 
 export const SidebarMenu = styled.ul`
+  /* border: 3px solid red; */
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(6, 80px);
