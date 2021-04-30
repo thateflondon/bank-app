@@ -29,8 +29,8 @@ export const homeObjectTwo = {
   imgStart: true,
   img: require("../../images/login-to-your-account.png").default,
   alt: "devices",
-  dark: true,
-  primary: true,
+  dark: false,
+  primary: false,
   darkText: true,
 };
 
