@@ -7,6 +7,7 @@ import {
   homeObjectThree,
 } from "../components/InfoSection/Data";
 import Navbar from "../components/Navbar";
+import Services from "../components/ServicesSection";
 import Sidebar from "../components/Sidebar";
 
 function Home() {
@@ -21,6 +22,7 @@ function Home() {
       <HeroSection />
       <InfoSection {...homeObjectOne} />
       <InfoSection {...homeObjectTwo} />
+      <Services />
       <InfoSection {...homeObjectThree} />
     </>
   );
