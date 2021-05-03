@@ -9,6 +9,7 @@ import {
 import Navbar from "../components/Navbar";
 import Services from "../components/ServicesSection";
 import Sidebar from "../components/Sidebar";
+import Footer from "../components/Footer";
 
 function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,6 +25,7 @@ function Home() {
       <InfoSection {...homeObjectTwo} />
       <Services />
       <InfoSection {...homeObjectThree} />
+      <Footer />
     </>
   );
 }
