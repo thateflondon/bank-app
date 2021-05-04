@@ -12,9 +12,7 @@ import {
   NavBtnLink,
 } from "./NavbarElements";
 import { IconContext } from "react-icons/lib";
-{
-  /**helps styling component directly in the file */
-}
+import { animateScroll as scroll } from "react-scroll";
 
 function Navbar({ toggle }) {
   const [scrollNav, setScrollNav] = useState(false);
@@ -26,15 +24,23 @@ function Navbar({ toggle }) {
       setScrollNav(false);
     }
   };
+
   useEffect(() => {
     window.addEventListener("scroll", changeNav);
   }, []);
+
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
+
   return (
     <>
       <IconContext.Provider value={{ color: "red" }}>
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
-            <NavLogo to="/">ECO</NavLogo>
+            <NavLogo to="/" onClick={toggleHome}>
+              ECO
+            </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
             </MobileIcon>
