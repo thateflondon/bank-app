@@ -21,8 +21,12 @@ import {
   FaTwitter,
   FaYoutube,
 } from "react-icons/fa";
+import { animateScroll as scroll } from "react-scroll";
 
 function Footer() {
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
   return (
     <FooterContainer>
       <FooterWrap>
@@ -66,7 +70,9 @@ function Footer() {
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to="/">ECO</SocialLogo>
+            <SocialLogo to="/" onClick={toggleHome}>
+              ECO
+            </SocialLogo>
             <WebsiteCopyrights>
               ECO © {new Date().getFullYear()} All rights reserved.
             </WebsiteCopyrights>
