@@ -77,11 +77,7 @@ function Footer() {
               ECO © {new Date().getFullYear()} All rights reserved.
             </WebsiteCopyrights>
             <SocialIcons>
-              <SocialIconLink
-                href="//https://www.linkedin.com/in/jerry-frederic-262784150/"
-                target="_blank"
-                aria-label="LinkedIn"
-              >
+              <SocialIconLink href="" target="_blank" aria-label="LinkedIn">
                 <FaLinkedin />
               </SocialIconLink>
               <SocialIconLink href="/" target="_blank" aria-label="Instagram">
