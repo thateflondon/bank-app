@@ -20,7 +20,7 @@ import { Icon } from "../SignIn/SignInElements";
 
 function Pricing() {
   return (
-    <IconContext.Provider value={{ color: "#01bf71", size: 64 }}>
+    <IconContext.Provider value={{ color: "#01bf71", size: 65 }}>
       <Icon to="/">ECO</Icon>
       <PricingSection>
         <PricingWrapper>

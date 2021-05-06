@@ -2,11 +2,15 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const PricingSection = styled.div`
-  padding: 100px 0 310px;
+  padding: 100px 0 250px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #01bf71;
+  background: linear-gradient(
+    108deg,
+    rgba(1, 147, 86, 1) 0%,
+    rgba(10, 201, 122, 1) 100%
+  );
 `;
 
 export const PricingWrapper = styled.div`
