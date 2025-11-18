@@ -16,7 +16,6 @@
     "typescript": "^4.2.4",
     "web-vitals": "^1.1.1"
   },
-  "homepage": "https://thateflondon.github.io/bank-app",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
