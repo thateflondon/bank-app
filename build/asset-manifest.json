@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/bank-app/static/css/main.d11c577d.chunk.css",
+    "main.js": "/bank-app/static/js/main.e414d654.chunk.js",
+    "main.js.map": "/bank-app/static/js/main.e414d654.chunk.js.map",
+    "runtime-main.js": "/bank-app/static/js/runtime-main.28a068fd.js",
+    "runtime-main.js.map": "/bank-app/static/js/runtime-main.28a068fd.js.map",
+    "static/js/2.a33bf850.chunk.js": "/bank-app/static/js/2.a33bf850.chunk.js",
+    "static/js/2.a33bf850.chunk.js.map": "/bank-app/static/js/2.a33bf850.chunk.js.map",
+    "index.html": "/bank-app/index.html",
+    "static/css/main.d11c577d.chunk.css.map": "/bank-app/static/css/main.d11c577d.chunk.css.map",
+    "static/js/2.a33bf850.chunk.js.LICENSE.txt": "/bank-app/static/js/2.a33bf850.chunk.js.LICENSE.txt",
+    "static/media/creating-account.png": "/bank-app/static/media/creating-account.20f55667.png",
+    "static/media/login-to-your-account.png": "/bank-app/static/media/login-to-your-account.ec3b2ee3.png",
+    "static/media/undraw_Savings_re_eq4w.77002b18.png": "/bank-app/static/media/undraw_Savings_re_eq4w.77002b18.png",
+    "static/media/undraw_wallet_aym5.f2d4f4ef.png": "/bank-app/static/media/undraw_wallet_aym5.f2d4f4ef.png",
+    "static/media/unlimited-transactions.png": "/bank-app/static/media/unlimited-transactions.d4d8c080.png",
+    "static/media/video.7d1ea6a9.mp4": "/bank-app/static/media/video.7d1ea6a9.mp4",
+    "static/media/virtual-offices.85284617.png": "/bank-app/static/media/virtual-offices.85284617.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.28a068fd.js",
+    "static/js/2.a33bf850.chunk.js",
+    "static/css/main.d11c577d.chunk.css",
+    "static/js/main.e414d654.chunk.js"
+  ]
+}
